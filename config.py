@@ -120,7 +120,7 @@ AI_PROVIDERS = {
         "env_key": "OPENAI_API_KEY"
     },
     "huggingface": {
-        "model": "google/flan-t5-small",
+        "model": "google-t5/t5-small",
         "api_base": "https://api-inference.huggingface.co/models",
         "env_key": "HUGGINGFACE_API_KEY"
     },
