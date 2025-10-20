@@ -121,7 +121,7 @@ AI_PROVIDERS = {
     },
     "huggingface": {
         "model": "google-t5/t5-small",
-        "api_base": "https://router.huggingface.co/hf-inference/models/google-t5/t5-small",
+        "api_base": "https://router.huggingface.co/hf-inference/models",
         "env_key": "HUGGINGFACE_API_KEY"
     },
     "anthropic": {
