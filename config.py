@@ -120,8 +120,8 @@ AI_PROVIDERS = {
         "env_key": "OPENAI_API_KEY"
     },
     "huggingface": {
-        "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
-        "api_base": "https://api-inference.huggingface.co/models",
+        "model": "google/flan-t5-base",
+        "api_base": "https://api-inference.huggingface.co/models/google/flan-t5-base",
         "env_key": "HUGGINGFACE_API_KEY"
     },
     "anthropic": {
