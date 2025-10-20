@@ -121,7 +121,7 @@ AI_PROVIDERS = {
     },
     "huggingface": {
         "model": "google/flan-t5-base",
-        "api_base": "https://api-inference.huggingface.co/models/google/flan-t5-base",
+        "api_base": "https://api-inference.huggingface.co/models",
         "env_key": "HUGGINGFACE_API_KEY"
     },
     "anthropic": {
