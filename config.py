@@ -114,20 +114,36 @@ DYNAMIC_EVENTS = [
 
 # AI Model Configuration
 AI_PROVIDERS = {
+    "groq": {
+        "model": "llama3-8b-8192",  # FREE & FAST
+        "api_base": "https://api.groq.com/openai/v1",
+        "env_key": "GROQ_API_KEY",
+        "free_tier": True,
+        "requests_per_day": 14400
+    },
+    "groq_mixtral": {
+        "model": "mixtral-8x7b-32768",  # Alternative model
+        "api_base": "https://api.groq.com/openai/v1",
+        "env_key": "GROQ_API_KEY",
+        "free_tier": True
+    },
+    "huggingface": {
+        "model": "microsoft/DialoGPT-medium",
+        "api_base": "https://api-inference.huggingface.co/models",
+        "env_key": "HF_TOKEN",
+        "free_tier": True
+    },
     "openai": {
         "model": "gpt-4",
         "api_base": "https://api.openai.com/v1",
-        "env_key": "OPENAI_API_KEY"
-    },
-    "huggingface": {
-        "model": "google-t5/t5-small",
-        "api_base": "https://router.huggingface.co/hf-inference/models",
-        "env_key": "HUGGINGFACE_API_KEY"
+        "env_key": "OPENAI_API_KEY",
+        "free_tier": False
     },
     "anthropic": {
         "model": "claude-3-sonnet-20240229",
         "api_base": "https://api.anthropic.com/v1",
-        "env_key": "ANTHROPIC_API_KEY"
+        "env_key": "ANTHROPIC_API_KEY",
+        "free_tier": False
     }
 }
 
