@@ -272,8 +272,8 @@ class AIManager:
                     "option_3": {"risk": 4, "reward": 6, "realism": 8}
                 },
                 "event": {
-                    "description": null,
-                    "impact": null
+                    "description": None,
+                    "impact": None
                 }
             }
         }
