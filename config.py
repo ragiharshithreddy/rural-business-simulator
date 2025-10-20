@@ -128,8 +128,8 @@ AI_PROVIDERS = {
         "free_tier": True
     },
     "huggingface": {
-        "model": "microsoft/DialoGPT-medium",
-        "api_base": "https://api-inference.huggingface.co/models",
+        "model": "",
+        "api_base": "https://router.huggingface.co/v1/chat/completions",
         "env_key": "HF_TOKEN",
         "free_tier": True
     },
